@@ -1,9 +1,9 @@
 {
-    "name": "adminAM",
-    "short_name": "aAM",
+    "name": "MDUBForm",
+    "short_name": "MForm",
     "background_color": "white",
     "theme_color": "white",
-    "description": "adminAM - Bootstrap 5 Admin Template with Dashboard Demo",
+    "description": "Form and customer management system",
     "icons": [
         {
             "src": "static/img/favicons/android-chrome-192x192.png",

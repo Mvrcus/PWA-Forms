@@ -1,4 +1,4 @@
-let APP = 'adminAM';
+let APP = 'MDUB Form';
 
 let ASSETS = [
     './',

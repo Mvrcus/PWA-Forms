@@ -2,6 +2,7 @@
 <html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta
       name="description"
       content="adminAM - Bootstrap 5 Admin Template with Login Page Demo"
@@ -15,8 +16,8 @@
     <title>Admin Template | Login</title>
 
     <!-- CSS -->
-    <link href="../../static/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../../static/css/style.css" rel="stylesheet" />
+    <link rel="preload" href="../../static/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preload" href="../../static/css/style.css" rel="stylesheet" />
   </head>
 
   <body class="d-flex align-items-center py-4">
@@ -62,11 +63,12 @@
             Remember me
           </label>
         </div>
-        <a class="btn btn-primary-amj w-100 py-2" href="../../index.html"
-          >Sign in</a
+        <button id="btn-login" class="btn btn-primary-amj w-100 py-2"
+          >Sign in</button
         >
         <p class="mt-5 mb-3 text-body-secondary">&copy; 2024</p>
       </form>
     </main>
+    <script src="https://cdn.auth0.com/js/lock/12.4.0/lock.min.js"></script>
   </body>
 </html>
